@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT360</title>
+    <link rel="icon" href="../Images/logo.png">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="sub-header" class="b">
+        <nav>
+            <a href="index.html"><img src="../Images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="newsletter.html">NEWSLETTER</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>Our Certifications and Online Programs for 2021</h1>
+</section>
+    <section class="blog-content">
+        <div class="b-left">
+        <img src="certificate.jpg" alt="">
+        <h2>Our Certifications and Online Programs for 2021</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate, fugiat doloremque, reiciendis quam ab culpa illum perspiciatis aspernatur magni aliquam earum.</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore cupiditate quis sunt quisquam reprehenderit repudiandae odit vitae distinctio, nam provident illo dolorem tempore aperiam voluptates.</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate, fugiat doloremque, reiciendis quam ab culpa illum perspiciatis aspernatur magni aliquam earum.</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore cupiditate quis sunt quisquam reprehenderit repudiandae odit vitae distinctio, nam provident illo dolorem tempore aperiam voluptates.</p>
+
+        <div class="comment-box">
+            <h3>Leave a Comment</h3>
+            <form action="" class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit"  class="hero-btn">POST COMMENT</button>
+            </form>
+        </div>
+        </div>
+        <div class="b-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>40</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Auto CAD</span>
+                <span>31</span>
+            </div>
+        </div>
+    </section>
+
+
+    </section>
+    <section class="foo">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Minus, distinctio. Id accusamus quia ab explicabo, a consequuntur?</p>
+        <div class="icons">
+            <a href="https://t.me/vit360live"><i class="fa fa-telegram"></i></a>
+            <a href="https://www.youtube.com/channel/UCS6dLCUvldJfQ04wxxKffhA/videos"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/company/vit-360/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/vit360._/?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
+        </div>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+    </script>
+</body>
+</html>
